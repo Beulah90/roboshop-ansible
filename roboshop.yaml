@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    instances: ["mongodb", "redis"]
+    instances: ["mongodb", "redis", "mysql"]
     image_id: ami-0220d79f3f480ecf5
     domain_name: daiops90.online # replace with your domain
     action: create
